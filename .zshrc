@@ -6,3 +6,11 @@ alias npass="python3 /Users/andersiglebekk/Documents/Apps/PasswordGenerator/pass
 alias pa="php artisan"
 alias lpint="./vendor/bin/pint"
 source <(kubectl completion zsh)
+alias c="composer"
+alias gaa="git add --all"
+alias gcm="git commit -m"
+alias wip='gaa && gcm "wip"'
+alias phpunit="vendor/bin/phpunit"
+alias pu="vendor/bin/phpunit"
+alias puw="phpunit-watcher watch --testdox"
+alias stan="vendor/bin/phpstan"

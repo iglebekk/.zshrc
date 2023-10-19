@@ -1,5 +1,3 @@
-autoload -Uz compinit
-compinit
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH=/opt/homebrew/bin:$PATH
@@ -17,3 +15,4 @@ alias puw="phpunit-watcher watch --testdox"
 alias stan="vendor/bin/phpstan"
 alias dos="doctl serverless"
 alias caf="caffeinate"
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'

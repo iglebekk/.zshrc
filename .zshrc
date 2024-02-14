@@ -2,6 +2,7 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH=/opt/homebrew/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
+export PS1="%1d %# "
 alias npass="python3 /Users/andersiglebekk/Documents/Apps/PasswordGenerator/passwordgenerator.py"
 alias pa="php artisan"
 alias lpint="./vendor/bin/pint"

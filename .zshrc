@@ -20,11 +20,4 @@ alias stan="vendor/bin/phpstan"
 alias dos="doctl serverless"
 alias caf="caffeinate"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
-alias gogogo="valet open && code . && npm run dev"
-
-# >>> pyenv initialize >>>
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-# <<< pyenv initialize <<<
-
+alias gogogo="git pull && valet open && code . && npm install && npm run dev"
